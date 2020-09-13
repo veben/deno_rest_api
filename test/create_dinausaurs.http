@@ -1,0 +1,34 @@
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "stegosaurus",
+  "weight": 6000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria"
+}
+
+###
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "tyrannosaurus",
+  "weight": 15000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria"
+}
+
+###
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "triceratops",
+  "weight": 13000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria",
+}

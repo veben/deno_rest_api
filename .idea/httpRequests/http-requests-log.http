@@ -1,0 +1,154 @@
+GET http://localhost:5000/api/dinosaur
+Accept: application/json
+
+<> 2020-09-13T074518.200.json
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "triceratops",
+  "weight": 13000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria",
+}
+
+<> 2020-09-13T073927.500.txt
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "tyrannosaurus",
+  "weight": 15000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria"
+}
+
+<> 2020-09-13T073927-1.201.json
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "stegosaurus",
+  "weight": 6000,
+  "kingdom": "animalia",
+  "phylum": "chordata",
+  "clade": "dinosauria"
+}
+
+<> 2020-09-13T073927.201.json
+
+###
+
+GET http://localhost:5000/api/dinosaur
+Accept: application/json
+
+<> 2020-09-13T071958.200.json
+
+###
+
+GET http://localhost:5000/api/dinosaurs
+Accept: application/json
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/json
+
+{
+  "name": "stegosaurus",
+  "weight": 6000
+}
+
+<> 2020-09-13T071134.201.json
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+<> 2020-09-13T070907.422.txt
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+<> 2020-09-13T070906.422.txt
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+<> 2020-09-13T070905.422.txt
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+name=stegosaurus
+weight=6000
+
+<> 2020-09-13T070845.422.txt
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+name=stegosaurus
+weight=6000
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+###
+
+POST http://localhost:5000/api/dinosaur
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+name=stegosaurus
+weight=6000
+
+###
+
