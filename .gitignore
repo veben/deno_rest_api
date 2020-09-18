@@ -2,7 +2,7 @@
 .deno_plugins
 
 ### IntelliJ IDEA ###
-.idea
+# .idea
 *.iws
 *.iml
 *.ipr
