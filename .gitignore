@@ -1,2 +1,11 @@
 .env
 .deno_plugins
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
